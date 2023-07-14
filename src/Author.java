@@ -39,7 +39,7 @@ public class Author {
     public int hashCode() {
         int result = getFirstName() != null ? getFirstName().hashCode() : 0;
         result = 31 * result + (getLastName() != null ? getLastName().hashCode() : 0);
-        return result;
+        return result ;
     }
 }
 

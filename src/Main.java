@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println(geroyNashegovremeny.getName());
         System.out.println(geroyNashegovremeny.getYear());
-        geroyNashegovremeny.setYear(1800);
+        geroyNashegovremeny.setYear(1800) ;
         System.out.println(geroyNashegovremeny.getYear());
 
         System.out.println(pushkin);
