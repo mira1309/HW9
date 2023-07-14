@@ -38,7 +38,6 @@ public class Book {
         Book book = (Book) o;
         return getYear() == book.getYear() && Objects.equals(getName(), book.getName()) && Objects.equals(getAuthor(), book.getAuthor());
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(getName(), getAuthor(), getYear());
