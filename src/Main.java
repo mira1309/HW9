@@ -15,5 +15,14 @@ public class Main {
         System.out.println(geroyNashegovremeny.getYear());
         geroyNashegovremeny.setYear(1800);
         System.out.println(geroyNashegovremeny.getYear());
+
+        System.out.println(pushkin);
+        System.out.println(kapitanskayaDochka);
+
+        Author pushkin2 = new Author ("Александр", "Пушкин");
+
+        System.out.println(pushkin.equals(pushkin2));
+        System.out.println(pushkin.hashCode());
+        System.out.println(pushkin2.hashCode());
     }
 }
